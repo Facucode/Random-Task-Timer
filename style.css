@@ -6,7 +6,7 @@
 
 }
 body, html{
-    margin:1rem 10%;
+    margin:1rem 5%;
     padding:0;
     overflow-x: hidden;
 }
@@ -24,13 +24,13 @@ body, html{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .top_buttons button {
     font-size: 2rem;
-    padding: .5rem 2rem;    
-    margin: 5% 10%;
+    padding: .5rem 1rem;    
+    margin: 2% 5%;
     box-sizing: border-box;
     border-radius: 3px;
     border: solid 1px #008BF3;
