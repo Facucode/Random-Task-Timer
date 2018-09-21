@@ -6,15 +6,41 @@
 
 }
 body, html{
-    margin:0;
+    margin:1rem 10rem;
     padding:0;
     overflow-x: hidden;
 }
-.flex-container{
+.header{
     display: flex;
+    /* height: 33vh; */
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-content: center;
+    text-align: center;
+
+}
+
+.top_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.top_buttons button {
+    font-size: 2rem;
+    padding: .5rem 2rem;    
+    margin: 5% 10%;
+    box-sizing: border-box;
+}
+
+/* .header h1{
+    font-size: 4rem;
+    margin: 0;
+} */
+.header h2{
+    font-size: 3rem;
+    margin: 0;
 }
 
 .title{
