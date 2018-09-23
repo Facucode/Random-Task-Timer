@@ -1,9 +1,12 @@
 
-window.onload=function(){
     function colon(x){
+        let y=0;
         var regex=/^(2[0-3])|[01][0-9]$/;
-        if(regex.test(x.value))
+        if(regex.test(x.value) && y===0){
+            y++;
            x.value+=":";
+           
+        }
      }
     
 
@@ -23,11 +26,11 @@ window.onload=function(){
 
     let customize=document.querySelector(".customize");
     customize.addEventListener('click',function(){
-    document.querySelector(".header").innerHTML="<h1>¿Cuanto tiempo vas a trabajar hoy?</h1><input type=\"text\" onkeyup=\"colon(this)\">";
+    document.querySelector(".header").innerHTML="<h1>¿Cuanto tiempo vas a trabajar hoy?</h1><input type=\"text\" onkeyup=\"colon(this)\" maxlength=\"5\">";
     document.querySelector("input").focus();
     })
 
    
 
 
-}
+
