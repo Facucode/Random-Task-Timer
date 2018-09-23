@@ -123,4 +123,13 @@ a{
 
 }
 
+input{
+    border: none;
+    border-bottom: whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+
 
