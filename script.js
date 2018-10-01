@@ -32,7 +32,7 @@ customize.addEventListener('click',function(){
 let next = document.querySelector(".next__h2");
 next.addEventListener('click',function(){
     document.getElementById("s1").style.display = "none";
-    document.getElementById("s2").style.display = "block";
+    document.getElementById("s3").style.display = "block";
 })
 
 
