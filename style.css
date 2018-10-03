@@ -34,6 +34,14 @@ body, html{
     display: none;
     color: white;
 }
+#b1 {
+    
+}
+
+.screen3 {
+    display: none;
+    /* color: white; */
+}
 
 .top_buttons{
     display: flex;
@@ -152,10 +160,7 @@ input{
 
 
 
-.screen3 {
-    display: none;
-    color: white;
-}
+
 
 
 

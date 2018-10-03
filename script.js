@@ -35,6 +35,23 @@ next.addEventListener('click',function(){
     document.getElementById("s2").style.display = "block";
 })
 
+let prev = document.querySelector("#b1");
+prev.addEventListener('click',function(){
+    document.getElementById("s2").style.display = "none";
+    document.getElementById("s1").style.display = "block";    
+})
+
+let next2 = document.querySelector("#b2");
+next2.addEventListener('click',function(){
+    document.getElementById("s2").style.display = "none";
+    document.getElementById("s3").style.display = "block";
+})
+
+let prev2 = document.querySelector("#b3");
+prev2.addEventListener('click',function(){
+    document.getElementById("s3").style.display = "none";
+    document.getElementById("s2").style.display = "block";
+})
 
 
 
