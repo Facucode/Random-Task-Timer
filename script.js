@@ -1,10 +1,9 @@
 
 function colon(x){
-    let y=0;
-    var regex=/^(2[0-3])|[01][0-9]$/;
-    if(regex.test(x.value) && y===0){
-        y++;
+    input=document.querySelector(".input1");
+    if(input.value.length==2){
         x.value+=":";
+
         
     }
 }
@@ -25,7 +24,7 @@ for(let i=0;i<4;i++){
 
 let customize=document.querySelector(".customize");
 customize.addEventListener('click',function(){
-    document.querySelector(".screen1__header").innerHTML="<h1>¿Cuanto tiempo vas a trabajar hoy?</h1><input type=\"text\" onkeyup=\"colon(this)\" maxlength=\"5\">";
+    document.querySelector(".screen1__header").innerHTML="<h1>¿Cuanto tiempo vas a trabajar hoy?</h1><input type=\"text\" class=\"input1\" onkeypress=\"colon(this)\" maxlength=\"5\">";
     document.querySelector("input").focus();
 })
 
