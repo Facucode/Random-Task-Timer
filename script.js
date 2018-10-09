@@ -10,7 +10,7 @@ function colon(x){
 }
     
 
-let timer=document.querySelector(".header h2");
+let timer=document.querySelector(".screen1__header h2");
 
 
 let buttons=document.querySelectorAll("button");
@@ -25,7 +25,7 @@ for(let i=0;i<4;i++){
 
 let customize=document.querySelector(".customize");
 customize.addEventListener('click',function(){
-    document.querySelector(".sreen1__header").innerHTML="<h1>¿Cuanto tiempo vas a trabajar hoy?</h1><input type=\"text\" onkeyup=\"colon(this)\" maxlength=\"5\">";
+    document.querySelector(".screen1__header").innerHTML="<h1>¿Cuanto tiempo vas a trabajar hoy?</h1><input type=\"text\" onkeyup=\"colon(this)\" maxlength=\"5\">";
     document.querySelector("input").focus();
 })
 
