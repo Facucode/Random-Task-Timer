@@ -32,8 +32,11 @@ customize.addEventListener('click',function(){
 
 let next = document.querySelector(".next__h2");
 next.addEventListener('click',function(){
+    if(timer.innerHTML!="00:00" || (input && document.querySelector(".input1").value!=""))
+    {
     document.getElementById("s1").style.display = "none";
     document.getElementById("s2").style.display = "block";
+    }
 })
 
 
@@ -46,6 +49,7 @@ prev.addEventListener('click',function(){
 
 let next2 = document.querySelector("#b2");
 next2.addEventListener('click',function(){
+    
     document.getElementById("s2").style.display = "none";
     document.getElementById("s3").style.display = "block";
     // Se fija si tiene el header comun o el input y lo introduce en la pagina 3
