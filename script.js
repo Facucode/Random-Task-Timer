@@ -30,7 +30,7 @@ customize.addEventListener('click',function(){
     let input = true;
 })
 
-let next = document.querySelector(".next__h2");
+let next = document.querySelector(".next");
 next.addEventListener('click',function(){
     if(timer.innerHTML!="00:00" || (input && document.querySelector(".input1").value!=""))
     {
