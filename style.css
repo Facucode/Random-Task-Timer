@@ -1,7 +1,18 @@
 *{
-    background-color: rgb(10, 41, 99);
-    font-family: 'Open Sans', sans-serif;
-    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    background: #030e57;
+    color: #fcfcfd;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #030e57;
+    color: #fcfcfd;
+}
+
+h2{
+    font-size: 3.5rem;
+    margin: 1rem;
 }
 
 
@@ -14,18 +25,29 @@
     padding: 1rem 2rem;
 }
 
+.top_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* flex-direction: column; */    
+    justify-content: space-around;
+    text-align: center;
+}
+
 .buttons__footer {  
     display: flex;  
     flex-direction: column;
 }
 
 .buttons button{
+    /* color: #fcfcfd; */
     font-size: 2rem;
     padding: .5rem 1rem;    
     margin: 5% 3%;
     /* box-sizing: border-box; */
     border-radius: 3px;
     border: solid 1px #008BF3;
+    /* background: #030e57; */
 }
 
 
@@ -42,16 +64,7 @@
 }
 
 
-.top_buttons{
-    display: flex;
-    flex-wrap: wrap;
-    /* align-items: center; */
-    /* flex-direction: column; */    
-    justify-content: space-around;
-    text-align: center;
-    
 
-}
 
 input{
     border: none;
