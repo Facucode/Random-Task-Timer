@@ -9,9 +9,7 @@ let input = false;
 function colon(x){
     input=document.querySelector(".input1");
     if(input.value.length==2){
-        x.value+=":";
-
-        
+        x.value+=":";        
     }
 }
 
@@ -32,13 +30,11 @@ customize.addEventListener('click',function(){
 
 let next = document.querySelector(".next");
 next.addEventListener('click',function(){
-    if(timer.innerHTML!="00:00" || (input && document.querySelector(".input1").value!=""))
-    {
-    document.getElementById("s1").style.display = "none";
-    document.getElementById("s2").style.display = "block";
+    if(timer.innerHTML!="00:00" || (input && document.querySelector(".input1").value!="")) {
+        document.getElementById("s1").style.display = "none";
+        document.getElementById("s2").style.display = "block";
     }
 })
-
 
 
 let prev = document.querySelector("#b1");
