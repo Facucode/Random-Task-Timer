@@ -15,7 +15,6 @@ h2{
     margin: 1rem;
 }
 
-
 .container {
     display: flex;
     flex-direction: column;
@@ -28,8 +27,6 @@ h2{
 .top_buttons{
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
-    /* flex-direction: column; */    
     justify-content: space-around;
     text-align: center;
 }
@@ -40,31 +37,21 @@ h2{
 }
 
 .buttons button{
-    /* color: #fcfcfd; */
     font-size: 2rem;
     padding: .5rem 1rem;    
     margin: 5% 3%;
-    /* box-sizing: border-box; */
     border-radius: 3px;
     border: solid 1px #008BF3;
-    /* background: #030e57; */
 }
-
-
 
 .screen2 {
     text-align: center;
     display: none;
-    color: white;
 }
-
 
 .screen3 {
     display: none;
 }
-
-
-
 
 input{
     border: none;
